@@ -25,7 +25,7 @@ function UploadExcel() {
       const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer sk-or-",
+          "Authorization": "Bearer k-or-v1-98b3585e615ae8002b3d62e6dc962dd131907105a932fba01c13f6cca2b9235b",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
